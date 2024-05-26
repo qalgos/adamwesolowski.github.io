@@ -14,6 +14,11 @@
         My research interests include quantum computing, classical algorithms, and complexity theory.
     </p>
 </div>
+<div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+    <h2 style="color: #0077b6;">Contact</h2>
+    <p>Email: <a href="mailto:jane.doe@example.com" style="color: #0077b6;">jane.doe@example.com</a></p>
+    <p>Office: Room 123, XYZ University</p>
+</div>
 
 <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <h2 style="color: #0077b6;">Research Interests</h2>
