@@ -7,7 +7,7 @@
     <img src="https://via.placeholder.com/800x200.png?text=Project+Banner" alt="Project Banner">
 </p>
 
-<p align="center" style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
+<p align="center" style="background-color: #FFE5AA; padding: 10px; border-radius: 8px;">
     This project is a demonstration of how to create a visually appealing GitHub README with a custom blue background.
 </p>
 
