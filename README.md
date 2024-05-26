@@ -2,15 +2,15 @@
 
 <div style="background-color: #FFE5AA; padding: 20px; border-radius: 8px; font-family: Arial, sans-serif;">
 
-<h1 align="center" style="color: #0077b6;">Dr. Jane Doe</h1>
+<h1 align="center" style="color: #0077b6;">Adam Wesołowski</h1>
 <p align="center" style="color: #0077b6; font-size: 1.2em;">
-    Professor of Computer Science
+    PhD student at Royal Holloway Univerity of London
 </p>
 
 <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
     <h2 style="color: #0077b6;">About Me</h2>
     <p>
-        Welcome to my academic webpage. I am Dr. Jane Doe, a professor of computer science at XYZ University.
+        Welcome to my academic webpage. I am Adam, I am a PhD student at Royal Holloway Univerity of London.
         My research interests include quantum computing, classical algorithms, and complexity theory.
     </p>
 </div>
