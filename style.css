@@ -5,7 +5,7 @@ body, html {
     height: 100%;
     font-family: Arial, sans-serif;
     background-color: #E9ECFF;
-    color: #333;
+    color: #E9ECFF;
 }
 
 .container {
@@ -19,7 +19,7 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #0077b6;
+    background-color: #E9ECFF;
     color: white;
     border-radius: 10px;
 }
