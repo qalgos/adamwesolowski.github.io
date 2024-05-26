@@ -38,19 +38,19 @@ header h1 {
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color:#EBEAEF;
+    background-color: CDCCE0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color:#000000;
+    color:000000;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #0077b6;
+    background-color: CDCCE0;
     color: white;
     border-radius: 10px;
 }
