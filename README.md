@@ -1,7 +1,7 @@
 <!-- README.md -->
 
 <!-- Basic HTML for layout and styling -->
-
+<div style="background-color: #FFE5AA; padding: 20px; border-radius: 8px;">
 <h1 align="center" style="color: #FFE5AA;">Welcome to My Project 🌟</h1>
 <p align="center" style="color: #0077b6;">
     <img src="https://via.placeholder.com/800x200.png?text=Project+Banner" alt="Project Banner">
