@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #083DA6;
+    background-color: #FFE4B5;
     color: #333;
 }
 
@@ -38,13 +38,13 @@ header h1 {
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color:#083DA6;
+    background-color:#DDE8FE;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #0077b6;
+    color:#FFE4B5;
 }
 
 footer {
