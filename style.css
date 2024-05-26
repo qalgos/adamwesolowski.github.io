@@ -4,8 +4,8 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: 070441;
-    color: D5D2E1;
+    background-color: #070441;
+    color: #D5D2E1;
 }
 
 .container {
@@ -20,7 +20,7 @@ header {
     text-align: center;
     padding: 20px 0;
     background-color: #e9dccd;
-    color: 010005;
+    color: #010005;
     border-radius: 10px;
 }
 
@@ -50,13 +50,13 @@ h2 {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: CDCCE0;
-    color: 000000;
+    background-color: #e9dccd;
+    color: #000000;
     border-radius: 10px;
 }
 
 a {
-    color: D5D2E1;
+    color: #D5D2E1;
     text-decoration: none;
 }
 
