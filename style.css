@@ -4,8 +4,8 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #E9ECFF;
-    color: #E9ECFF;
+    background-color: #8C8CB8;
+    color: #8C8CB8;
 }
 
 .container {
@@ -19,7 +19,7 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #E9ECFF;
+    background-color: #8C8CB8;
     color: white;
     border-radius: 10px;
 }
