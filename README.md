@@ -1,63 +1,49 @@
 <!-- README.md -->
 
-<!-- Add some CSS to style the background and other elements -->
-<style>
-  body {
-    background-color: #e0f7fa; /* Light blue background */
-    font-family: Arial, sans-serif;
-  }
-  .container {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  h1, h2, h3, p {
-    color: #0077b6; /* Darker blue text */
-  }
-  a {
-    color: #0077b6; /* Matching link color */
-  }
-</style>
+<!-- Basic HTML for layout and styling -->
 
-<div class="container">
-  <h1>Welcome to My Project</h1>
-  <p>
+<h1 align="center" style="color: #0077b6;">Welcome to My Project 🌟</h1>
+<p align="center" style="color: #0077b6;">
+    <img src="https://via.placeholder.com/800x200.png?text=Project+Banner" alt="Project Banner">
+</p>
+
+<p align="center" style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
     This project is a demonstration of how to create a visually appealing GitHub README with a custom blue background.
-  </p>
-  
-  <h2>Getting Started</h2>
-  <p>
-    Follow these instructions to set up the project locally.
-  </p>
+</p>
 
-  <h3>Prerequisites</h3>
-  <ul>
+<h2 style="color: #0077b6;">Getting Started</h2>
+<p style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
+    Follow these instructions to set up the project locally.
+</p>
+
+<h3 style="color: #0077b6;">Prerequisites</h3>
+<ul style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
     <li>Python 3.8+</li>
     <li>Git</li>
-  </ul>
+</ul>
 
-  <h3>Installation</h3>
-  <pre><code>git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-pip install -r requirements.txt
-</code></pre>
+<h3 style="color: #0077b6;">Installation</h3>
+<p style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
+    <code>git clone https://github.com/yourusername/your-repo.git</code><br>
+    <code>cd your-repo</code><br>
+    <code>pip install -r requirements.txt</code>
+</p>
 
-  <h2>Usage</h2>
-  <p>
+<h2 style="color: #0077b6;">Usage</h2>
+<p style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
     To start the application, run the following command:
-  </p>
-  <pre><code>python app.py</code></pre>
+</p>
+<p style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
+    <code>python app.py</code>
+</p>
 
-  <h2>Contributing</h2>
-  <p>
+<h2 style="color: #0077b6;">Contributing</h2>
+<p style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
     Contributions are welcome! Please read the <a href="CONTRIBUTING.md">contributing guidelines</a> first.
-  </p>
+</p>
 
-  <h2>License</h2>
-  <p>
+<h2 style="color: #0077b6;">License</h2>
+<p style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
     This project is licensed under the MIT License - see the <a href="LICENSE.md">LICENSE.md</a> file for details.
-  </p>
-</div>
+</p>
+
