@@ -1,13 +1,13 @@
 <!-- README.md -->
 
-<div style="background-color: #FFE5AA; padding: 0px; border-radius: 0px; font-family: Arial, sans-serif;">
+<div style="background-color: #FFE5AA; padding: 10px; border-radius: 8px; font-family: Arial, sans-serif;">
 
 <h1 align="center" style="color: #0077b6;">Adam Wesołowski</h1>
 <p align="center" style="color: #0077b6; font-size: 1.2em;">
     PhD student at Royal Holloway Univerity of London
 </p>
 
-<div style="background-color: #FFE5AA; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+<div style="background-color: #C7D0FF; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
     <h2 style="color: #0077b6;">About Me</h2>
     <p>
         Welcome to my academic webpage. I am Adam, I am a PhD student at Royal Holloway Univerity of London.
