@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #EDEDED;
+    background-color: #FECC92;
     color: #333;
 }
 
@@ -44,7 +44,7 @@ section {
 }
 
 h2 {
-    color:#FFE4B5;
+    color:#000000;
 }
 
 footer {
