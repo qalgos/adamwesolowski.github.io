@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #EDEDED ;
+    background-color: #322E9F ;
     color: #333;
 }
 
@@ -19,8 +19,8 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #FECC92;
-    color: #EDEDED;
+    background-color: #EDEDED;
+    color: #EA7425;
     border-radius: 10px;
 }
 
