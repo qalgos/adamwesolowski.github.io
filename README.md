@@ -41,7 +41,7 @@
 </div>
 
 <footer style="text-align: center; padding: 10px 0; background-color: #0077b6; color: white; border-radius: 10px; margin-top: 20px;">
-    &copy; 2024 Dr. Jane Doe | <a href="https://www.example.com" style="color: white;">Personal Website</a>
+    &copy; 2024 Adam Wesołowski | <a href="https://www.example.com" style="color: white;">Personal Website</a>
 </footer>
 
 </div>
