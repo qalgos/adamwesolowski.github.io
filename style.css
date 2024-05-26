@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #333385;
+    background-color: #0D3D6E;
     color: black;
 }
 
@@ -19,7 +19,7 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #333385;
+    background-color: #113385;
     color: white;
     border-radius: 10px;
 }
@@ -56,7 +56,7 @@ footer {
 }
 
 a {
-    color: #0077b6;
+    color: #861E37;
     text-decoration: none;
 }
 
