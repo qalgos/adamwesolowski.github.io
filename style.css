@@ -19,7 +19,7 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: D5D2E1;
+    background-color: #e9dccd;
     color: 010005;
     border-radius: 10px;
 }
@@ -38,7 +38,7 @@ header h1 {
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color: CDCCE0;
+    background-color: #e9dccd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
