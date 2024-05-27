@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #001f3f; /* dark blue night sky */
+    background-color: #849974; /* dark blue night sky */
     color: #000; /* black text */
 }
 
@@ -19,8 +19,8 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #111; /* lighter black for header */
-    color: #000; /* black text */
+    background-color: #111000; /* lighter black for header */
+    color: #000000; /* black text */
     border-radius: 10px;
 }
 
@@ -51,12 +51,12 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #e9dccd;
-    color: #000; /* black text */
+    color: #000000; /* black text */
     border-radius: 10px;
 }
 
 a {
-    color: #000; /* black text */
+    color: #000000; /* black text */
     text-decoration: none;
 }
 
