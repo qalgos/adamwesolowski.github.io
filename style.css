@@ -18,8 +18,8 @@ body, html {
 
 header {
     text-align: center;
-    padding: 10px 0;
-    background-color: #b0c4de; /* lighter black for header */
+    padding: 20px 0;
+    background-color: #708090; /* lighter black for header */
     color: #000000; /* black text */
     border-radius: 10px;
 }
