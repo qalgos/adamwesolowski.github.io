@@ -19,7 +19,7 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #ce6d00; /* lighter black for header */
+    background-color: #ababab; /* lighter black for header */
     color: #000000; /* black text */
     border-radius: 10px;
 }
