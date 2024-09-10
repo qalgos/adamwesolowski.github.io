@@ -26,7 +26,7 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #708090; /* Slate gray */
+    background-color:  #ccdfe6; /* Slate gray */
     color: #000000; /* black text */
     border-radius: 10px;
 }
