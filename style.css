@@ -26,7 +26,7 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color:  #ccdfe6; /* Slate gray */
+    background-color:  #aab7c6; /* Slate gray */
     color: #000000; /* black text */
     border-radius: 10px;
 }
@@ -47,7 +47,7 @@ header h1 {
 section {
     margin: 10px;
     padding: 30px;
-    background-color: #ccdfe6; /* White dust for section backgrounds */
+    background-color: #aab7c6; /* White dust for section backgrounds */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Lighter, neutral shadow */
 }
