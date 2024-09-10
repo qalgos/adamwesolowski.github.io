@@ -5,7 +5,10 @@ body, html {
     height: 100%;
     font-family: Arial, sans-serif;
     background-color: #05063c; /* dark blue night sky */
-    color: #000000; /* black text */
+    color: #D3D3D3; /* light gray text */
+    background-image: radial-gradient(circle, #ffffff 1px, transparent 1px);
+    background-size: 3px 3px; /* Star density */
+
 }
 
 .container {
