@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #0a0a23; /* nearly black night sky */
+    background-color: #faf2e1; /* nearly black night sky */
     color: #D3D3D3; /* light gray text */
     background-image: radial-gradient(circle, #ffffff 1px, transparent 1px);
     background-size: 2px 2px; /* denser stars */
