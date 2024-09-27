@@ -6,7 +6,7 @@ body, html {
     height: 100%;
     /* Background */
     /* Darker Navy Background */
-    background: linear-gradient(135deg, #1a2a4f 0%, #0d1b3c 100%); /* darker gradient */
+    background: linear-gradient(135deg, ffeac3 0%, #0d1b3c 100%); /* darker gradient */
     color: #333333; /* Dark gray text for readability */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px; /* or adjust based on the platform */
