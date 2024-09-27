@@ -26,14 +26,14 @@ body, html {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color:  #aab7c6; /* Slate gray */
+    background-color:  #fcd387; /* Slate gray */
     color: #000000; /* black text */
     border-radius: 10px;
 }
 
 header h1 {
     margin: 10px; /* Adjusted margin */
-    background-color:  #aab7c6;
+    background-color:  #fcd387;
 }
 
 /* Content Section */
