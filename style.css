@@ -48,7 +48,7 @@ header h1 {
 section {
     margin: 10px;
     padding: 30px;
-    background-color: #aab7c6; /* White dust for section backgrounds */
+    background-color: #fcd387; /* White dust for section backgrounds */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Lighter, neutral shadow */
 }
