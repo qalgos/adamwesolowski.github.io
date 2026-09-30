@@ -1,1 +1,388 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="LyOx02C1IT7-CTtUqhJ-7nQf384POSQZTyBqIO-sPOI" />
+  <title>Adam Wesołowski · Quantum algorithms and complexity</title>
+  <meta name="description" content="Adam Wesołowski, PhD researcher at Royal Holloway, University of London, working on quantum algorithms, quantum complexity and quantum topological data analysis.">
+  <meta name="author" content="Adam Wesołowski">
+  <meta name="theme-color" content="#081226">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Adam Wesołowski">
+  <meta property="og:description" content="Quantum algorithms, quantum complexity and quantum topological data analysis.">
+  <meta property="og:url" content="https://qalgos.github.io/adamwesolowski.github.io/">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Adam Wesołowski",
+    "url": "https://qalgos.github.io/adamwesolowski.github.io/",
+    "jobTitle": "PhD researcher in quantum algorithms",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Royal Holloway, University of London" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Lancaster University" },
+    "knowsAbout": ["Quantum algorithms", "Quantum complexity theory", "Topological data analysis", "Quantum query complexity"],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=TpurWn4AAAAJ",
+      "https://www.linkedin.com/in/adam-wesołowski-06a6611b9/",
+      "https://github.com/qalgos"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="monogram" href="#top" aria-label="Adam Wesołowski, back to top">A.W.</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav__toggle-bars" aria-hidden="true"></span>
+        <span class="nav__toggle-label">Menu</span>
+      </button>
+      <nav aria-label="Sections">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#path">Path</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-name">
+      <canvas class="hero__canvas" id="complex" aria-hidden="true"></canvas>
+
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="hero__role">PhD researcher in quantum algorithms, Royal Holloway, University of London</p>
+          <h1 class="hero__name" id="hero-name">
+            <span>Adam</span>
+            <span>Wesołowski</span>
+          </h1>
+          <p class="hero__lede">I design quantum algorithms and prove where they can’t go, mostly for graph problems and for the shape of data.</p>
+          <div class="hero__actions">
+            <a class="btn btn--gold" href="#publications">Read my papers</a>
+            <a class="btn btn--line" href="mailto:adam.wesolowski.2023@live.rhul.ac.uk">Email me</a>
+          </div>
+        </div>
+
+        <aside class="complex-panel" aria-label="About the background animation">
+          <p class="complex-panel__caption">Behind this text: the Vietoris–Rips complex of a drifting point cloud. Point anywhere to add a vertex, or set the scale yourself. β<sub>0</sub> counts connected components; χ = V − E + T.</p>
+          <dl class="complex-panel__stats">
+            <div><dt>β<sub>0</sub></dt><dd id="r-b0">–</dd></div>
+            <div><dt>Edges</dt><dd id="r-e">–</dd></div>
+            <div><dt>Triangles</dt><dd id="r-t">–</dd></div>
+            <div><dt>χ</dt><dd id="r-chi">–</dd></div>
+          </dl>
+          <div class="complex-panel__controls">
+            <label for="eps">Scale ε <output id="r-eps" for="eps">–</output></label>
+            <input type="range" id="eps" min="0" max="100" value="45">
+            <button type="button" class="complex-panel__play" id="play" aria-pressed="false">Pause motion</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section__inner">
+        <h2 class="section__title" id="about-title">About</h2>
+        <div class="section__body">
+          <div class="prose">
+            <p class="prose__lead">I’m a PhD student in computer science at Royal Holloway, University of London, supervised by <a href="https://scholar.google.co.uk/citations?user=dr6ZKAYAAAAJ&amp;hl=en">Stephen Piddock</a>, and currently at the University of Oxford.</p>
+            <p>I work on quantum algorithms and quantum compelxity. Much of my recent work is on quantum topological data analysis, from estimating Betti numbers and detecting torsion to encoding topological spaces into quantum states.</p>
+            <p>Before the PhD I read theoretical physics at Lancaster University.</p>
+          </div>
+
+          <h3 class="subhead">Research interests</h3>
+          <ul class="interests">
+            <li>
+              <h4>Quantum topological data analysis</h4>
+              <p>The average-case complexity of Betti number estimation, torsion detection, and new directions in the field.</p>
+            </li>
+            <li>
+              <h4>Quantum graph algorithms</h4>
+              <p>Query complexity of shortest paths, replacement paths, eccentricity, radius and diameter.</p>
+            </li>
+       
+            <li>
+              <h4>Quantum fine-grained complexity</h4>
+              <p>Conditional lower bounds that pin down exactly how much a quantum computer can help.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PATH ============ -->
+    <section class="section" id="path" aria-labelledby="path-title">
+      <div class="section__inner">
+        <h2 class="section__title" id="path-title">Path</h2>
+        <div class="section__body">
+          <ol class="path">
+            <li class="path__item is-current">
+              <p class="path__date">2026 – now</p>
+              <div class="path__body">
+                <h3>Visiting PhD student, University of Oxford</h3>
+                <p class="path__place">With Sergii Strelchuk and Sathyawageeswar Subramanian</p>
+                <p>Average-case hardness of quantum topological data analysis.</p>
+              </div>
+            </li>
+            <li class="path__item">
+              <p class="path__date">Oct – Dec 2024</p>
+              <div class="path__body">
+                <h3>Visiting PhD student, IRIF, Université Paris Cité</h3>
+                <p class="path__place">Hosted by Simon Apers</p>
+                <p>Quantum logspace algorithms for the clique homology problem and the space complexity of topological data analysis.</p>
+              </div>
+            </li>
+            <li class="path__item is-current">
+              <p class="path__date">2023 – now</p>
+              <div class="path__body">
+                <h3>PhD in Computer Science, Royal Holloway, University of London</h3>
+                <p class="path__place">Supervised by Stephen Piddock</p>
+                <p>Quantum algorithms and complexity of shortest-path problems, quantum fine-grained and query complexity, logspace algorithms and quantum topological data analysis.</p>
+              </div>
+       
+            </li>
+            <li class="path__item">
+              <p class="path__date">2020 – 2023</p>
+              <div class="path__body">
+                <h3>BSc Theoretical Physics, Lancaster University</h3>
+                <p class="path__place">First-class honours</p>
+                <p>Final project benchmarking the variational quantum eigensolver on molecules from the interstellar medium, presented at QCTIP 2023.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section class="section" id="publications" aria-labelledby="pubs-title">
+      <div class="section__inner">
+        <h2 class="section__title" id="pubs-title">Publications</h2>
+        <div class="section__body">
+          <div class="filters" role="group" aria-label="Filter papers by topic">
+            <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="chip" data-filter="topology" aria-pressed="false">Topology</button>
+            <button type="button" class="chip" data-filter="graphs" aria-pressed="false">Graph algorithms</button>
+            <button type="button" class="chip" data-filter="complexity" aria-pressed="false">Complexity</button>
+            <button type="button" class="chip" data-filter="ml" aria-pressed="false">Machine learning</button>
+          </div>
+          <p class="filters__count" id="pub-count" aria-live="polite"></p>
+
+          <div class="pub-group">
+            <p class="pub-group__label">Upcoming</p>
+    
+          </div>
+
+          <div class="pub-group">
+            <p class="pub-group__label">2026</p>
+            <ul class="pubs">
+              <li class="pub" data-tags="topology complexity">
+                <h3 class="pub__title"><a href="https://arxiv.org/abs/2609.14110">Torsion detection in clique complexes is conditionally QMA<sub>1</sub>-hard</a></h3>
+                <p class="pub__authors"><strong>Adam Wesołowski</strong></p>
+                <p class="pub__venue">Under review at Quantum</p>
+                <p class="pub__links"><a href="https://arxiv.org/abs/2609.14110">arXiv</a><a href="https://scirate.com/arxiv/2609.14110">SciRate</a></p>
+              </li>
+              <li class="pub" data-tags="topology complexity">
+                <h3 class="pub__title">Average-case hardness of Betti number estimation</h3>
+                <p class="pub__authors">Sergii Strelchuk, Sathyawageeswar Subramanian, <strong>Adam Wesołowski</strong></p>
+                <p class="pub__venue">Under review at ITCS 2027</p>
+              </li>
+              <li class="pub" data-tags="topology ml">
+                <h3 class="pub__title"><a href="https://arxiv.org/abs/2607.13847">Quantum topological data encoding</a></h3>
+                <p class="pub__authors"><strong>Adam Wesołowski</strong>, Dimitrios Thanos, Lirandë Pira</p>
+                <p class="pub__venue">Under review at Nature Communications</p>
+                <p class="pub__links"><a href="https://arxiv.org/abs/2607.13847">arXiv</a><a href="https://scirate.com/arxiv/2607.13847">SciRate</a></p>
+              </li>
+              <li class="pub" data-tags="ml topology">
+                <h3 class="pub__title">Fast, accurate and interpretable graph classification with topological kernels</h3>
+                <p class="pub__authors"><strong>Adam Wesołowski</strong>, Karim Essafi, Ronin Wu</p>
+                <p class="pub__venue">International Conference on Bioinformatics and Computational Biology (ICBCB), Kitakyushu</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pub-group">
+            <p class="pub-group__label">2025</p>
+            <ul class="pubs">
+              <li class="pub" data-tags="graphs complexity">
+                <h3 class="pub__title"><a href="https://arxiv.org/abs/2502.20148">Quantum algorithms and lower bounds for eccentricity, radius, and diameter in undirected graphs</a></h3>
+                <p class="pub__authors">Jinge Bao, <strong>Adam Wesołowski</strong></p>
+                <p class="pub__venue">Preprint</p>
+                <p class="pub__links"><a href="https://arxiv.org/abs/2502.20148">arXiv</a><a href="https://scirate.com/arxiv/2502.20148">SciRate</a></p>
+              </li>
+            
+            </ul>
+          </div>
+
+          <div class="pub-group">
+            <p class="pub-group__label">2024</p>
+            <ul class="pubs">
+              <li class="pub" data-tags="graphs">
+                <h3 class="pub__title"><a href="https://arxiv.org/abs/2408.10427">Advances in quantum algorithms for the shortest path problem</a></h3>
+                <p class="pub__authors"><strong>Adam Wesołowski</strong>, Stephen Piddock</p>
+                <p class="pub__venue">Under review at Quantum Information Processing</p>
+                <p class="pub__links"><a href="https://arxiv.org/abs/2408.10427">arXiv</a><a href="https://scirate.com/arxiv/2408.10427">SciRate</a></p>
+              </li>
+            </ul>
+          </div>
+
+          <p class="pubs__more">Full and up-to-date list on <a href="https://scholar.google.com/citations?user=TpurWn4AAAAJ&amp;hl=en">Google Scholar</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TALKS ============ -->
+    <section class="section" id="talks" aria-labelledby="talks-title">
+      <div class="section__inner">
+        <h2 class="section__title" id="talks-title">Talks</h2>
+        <div class="section__body">
+          <ul class="talks">
+            <li>
+              <p class="talks__date">2026</p>
+              <div><h3>ICBCB 2026, Kitakyushu, Japan</h3><p>Talk on topological kernels for classifying molecular graphs</p></div>
+            </li>
+            <li>
+              <p class="talks__date">2026</p>
+              <div><h3>QIP 2026, Riga, Latvia</h3><p>Attended</p></div>
+            </li>
+            <li>
+              <p class="talks__date">Dec 2025</p>
+              <div><h3>Complexity Network, University of Oxford</h3><p>Talk on quantum topological data analysis</p></div>
+            </li>
+            <li>
+              <p class="talks__date">Autumn 2025</p>
+              <div><h3><a href="https://www.irif.fr/moma">MOMA seminar, IRIF, Paris</a></h3><p>Modern Optimization Methods and Models in Algorithm Design</p></div>
+            </li>
+            <li>
+              <p class="talks__date">2025</p>
+              <div><h3>IEEE qCCL 2025, Hong Kong</h3><p>Talk on effective resistance kernels for molecules, best student paper nominee</p></div>
+            </li>
+            <li>
+              <p class="talks__date">Nov 2024</p>
+              <div><h3>Warsaw Quantum Computing, Polish Quantum AI Foundation</h3><p>Online talk on state-of-the-art quantum algorithmic techniques</p></div>
+            </li>
+            <li>
+              <p class="talks__date">Oct 2024</p>
+              <div><h3>Algorithms and Complexity group, IRIF, Université Paris Cité</h3><p>Invited talk on quantum algorithms for the shortest path problem</p></div>
+            </li>
+            <li>
+              <p class="talks__date">Oct 2024</p>
+              <div><h3>QURIE 2024, Warsaw</h3><p>Talk on new quantum algorithms for graph problems</p></div>
+            </li>
+            <li>
+              <p class="talks__date">Sep 2024</p>
+              <div><h3>TQC 2024</h3><p>Video presentation</p></div>
+            </li>
+            <li>
+              <p class="talks__date">2024</p>
+              <div><h3>LIP6, Sorbonne Université</h3><p>Invited talk to Elham Kashefi’s group on quantum machine learning for graph properties</p></div>
+            </li>
+            <li>
+              <p class="talks__date">Apr 2024</p>
+              <div><h3>QCTIP 2024, Edinburgh</h3><p>Poster on quantum machine learning for molecular graph classification</p></div>
+            </li>
+          </ul>
+
+          <details class="more">
+            <summary>Show earlier events</summary>
+            <ul class="talks talks--compact">
+              <li><p class="talks__date">Nov 2024</p><div><h3>YQIS 2024, Paris</h3></div></li>
+              <li><p class="talks__date">Sep 2024</p><div><h3>Foundations of Quantum Computing, London</h3></div></li>
+              <li><p class="talks__date">2024</p><div><h3>ALGO 2024, Royal Holloway</h3></div></li>
+              <li><p class="talks__date">May 2024</p><div><h3>One-day meeting in combinatorics, Oxford</h3></div></li>
+              <li><p class="talks__date">Feb 2024</p><div><h3>Quantum Innovation Summit, Dubai</h3></div></li>
+              <li><p class="talks__date">Jan 2024</p><div><h3>Causal Cognition in Humans and Machines, Oxford</h3></div></li>
+              <li><p class="talks__date">Apr 2023</p><div><h3>QCTIP 2023, Cambridge</h3><p>Poster on the variational quantum eigensolver</p></div></li>
+              <li><p class="talks__date">Apr 2022</p><div><h3>University of Hamburg</h3><p>Invited talk on the group-theoretic foundations of anyons</p></div></li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICE ============ -->
+    <section class="section" id="service" aria-labelledby="service-title">
+      <div class="section__inner">
+        <h2 class="section__title" id="service-title">Service</h2>
+        <div class="section__body service">
+          <div>
+            <h3 class="subhead">Reviewing</h3>
+            <ul class="plain">
+              <li>Nature Communications</li>
+              <li>Quantum</li>
+              <li>QTML 2026</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="subhead">Outreach and teaching</h3>
+            <ul class="plain">
+              <li>Co-organiser of the first Polish Quantum Computing Olympiad, 2026</li>
+              <li>Co-organiser and jury member, Polish Quantum Hackathon, 2024 and 2025</li>
+              <li>Tutor at a summer school for high-school students, teaching a week-long introduction to quantum mechanics, 2024</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="subhead">Recognition</h3>
+            <ul class="plain">
+              <li>Best student paper nomination, IEEE qCCL 2025</li>
+              <li>Top 15 worldwide, Classiq challenge on multi-controlled Toffoli decomposition</li>
+              <li>Gold medal, Náboj physics competition, Poland, 2019</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="section__inner">
+        <h2 class="section__title" id="contact-title">Contact</h2>
+        <div class="section__body">
+          <p class="contact__intro">Happy to talk about collaborations, talks or open problems. Email is the quickest way to reach me.</p>
+          <div class="contact__email">
+            <a href="mailto:adam.wesolowski.2023@live.rhul.ac.uk" id="email-link">adam.wesolowski.2023@live.rhul.ac.uk</a>
+            <button type="button" class="btn btn--line btn--small" id="copy-email" data-email="adam.wesolowski.2023@live.rhul.ac.uk">Copy email</button>
+          </div>
+          <p class="contact__office">Bedford Building, Royal Holloway, University of London, Egham</p>
+          <ul class="contact__links">
+            <li><a href="https://scholar.google.com/citations?user=TpurWn4AAAAJ&amp;hl=en">Google Scholar</a></li>
+            <li><a href="https://www.linkedin.com/in/adam-weso%C5%82owski-06a6611b9/">LinkedIn</a></li>
+            <li><a href="https://github.com/qalgos">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>© <span id="year">2026</span> Adam Wesołowski</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/complex.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
